@@ -4,18 +4,18 @@ import { Briefcase, GraduationCap, Code } from 'lucide-react';
 const About = () => {
   const workExperience = [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Full-Stack Developer",
-      period: "2022 - Present",
-      description: "Leading development of scalable web applications using React, Node.js, and cloud technologies.",
+      company: "Neura IT (FagginApps Pvt Ltd)",
+      position: "Associate Software Engineer",
+      period: "Aug 2024 - Oct 2024",
+      description: "As an Associate Software Engineer, I worked on various projects using React.js, Node.js, Express.js, Java, JavaScript, SQL, MongoDB, Redux, FileZilla, Heroku, Cloudinary, Stripe, Agora SDK, CSS, and HTML. I collaborated with foreign product owners and practiced Agile Scrum on a 3-week sprint cycle.",
       type: "FULL TIME",
       logo: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=64&h=64&fit=crop&crop=center"
     },
     {
-      company: "Digital Innovations Co.",
-      position: "Frontend Developer", 
-      period: "2020 - 2022",
-      description: "Developed responsive user interfaces and improved application performance by 40%.",
+      company: "Neura IT (FagginApps Pvt Ltd)",
+      position: "Software Engineer Intern", 
+      period: "Feb 2024 - Aug 2024",
+      description: "Contributed to feature development across several projects while collaborating directly with foreign product owners. Practiced Agile Scrum on a 3-week sprint cycle and participated in scrum meetings. Worked as a Full-Stack Developer, gaining hands-on experience with technologies including React.js, Node.js, Express.js, Java, JavaScript, SQL, MongoDB, Redux, FileZilla, Heroku, Cloudinary, Stripe, Agora SDK, CSS, and HTML.",
       type: "FULL TIME",
       logo: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=64&h=64&fit=crop&crop=center"
     },
@@ -129,7 +129,7 @@ const About = () => {
                   <div className="w-32 h-32 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white text-4xl font-bold">👨‍💻</span>
                   </div>
-                  <p className="text-gray-300">Professional Photo</p>
+                  <p className="text-gray-300">Ashani</p>
                 </div>
               </div>
             </div>
