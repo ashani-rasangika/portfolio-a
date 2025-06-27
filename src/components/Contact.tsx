@@ -32,7 +32,7 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       value: "ashanidewmini33@gmail.com",
-      link: "ashanidewmini33@gmail.com",
+      link: "mailto:ashanidewmini33@gmail.com",
     },
     // {
     //   icon: <Phone className="w-6 h-6" />,
@@ -123,14 +123,14 @@ const Contact = () => {
                 >
                   <FaGithub size={20} />
                 </a>
-                <a
+                {/* <a
                   href="https://www.facebook.com/your-username"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110"
                 >
                   <FaFacebookF size={20} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

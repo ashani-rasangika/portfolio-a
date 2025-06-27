@@ -91,9 +91,9 @@ const Services = () => {
 
               {/* Hover Effect */}
               <div className="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <button className="text-blue-400 hover:text-blue-300 font-medium text-sm transition-colors duration-200">
+                {/* <button className="text-blue-400 hover:text-blue-300 font-medium text-sm transition-colors duration-200">
                   Learn More →
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

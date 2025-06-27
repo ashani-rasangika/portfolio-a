@@ -86,8 +86,13 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-semibold mb-4">Get In Touch</h3>
             <div className="space-y-2">
-              <p className="text-gray-400 text-sm">ashanidewmini33@gmail.com</p>
-              {/* <p className="text-gray-400 text-sm">+1 (555) 123-4567</p> */}
+              <a
+                href="mailto:ashanidewmini33@gmail.com"
+                className="text-gray-400 text-sm hover:text-blue-400 transition-colors duration-200"
+              >
+                ashanidewmini33@gmail.com
+              </a>
+
               <div className="flex gap-4 mt-4">
                 <a
                   href="https://www.linkedin.com/in/ashani-rasangika"
@@ -105,14 +110,14 @@ const Footer = () => {
                 >
                   <FaGithub size={14} />
                 </a>
-                <a
+                {/* <a
                   href="https://www.facebook.com/your-username"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-gray-800 rounded flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200"
                 >
                   <FaFacebookF size={14} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

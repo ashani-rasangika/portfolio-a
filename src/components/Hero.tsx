@@ -55,10 +55,12 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center gap-2">
-                <Download size={20} />
-                DOWNLOAD RESUME
-              </button>
+              <a href="/Ashani_Dewmini_CV.pdf" download className="inline-block">
+                <button className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-8 py-4 rounded-full font-medium hover:from-blue-600 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 flex items-center gap-2">
+                  <Download size={20} />
+                  DOWNLOAD RESUME
+                </button>
+              </a>
               <div className="flex gap-4">
                 <a
                   href="https://www.linkedin.com/in/ashani-rasangika/"
@@ -76,14 +78,14 @@ const Hero = () => {
                 >
                   <FaGithub size={20} />
                 </a>
-                <a
+                {/* <a
                   href="https://www.facebook.com/your-username"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-blue-400 hover:border-blue-400 transition-all duration-200 transform hover:scale-110"
                 >
                   <FaFacebookF size={20} />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
