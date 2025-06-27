@@ -70,7 +70,7 @@ const Projects = () => {
       ],
       image: "/lovable-uploads/08a29317-1706-45e3-8ebf-f4ce0078db39.png",
       liveLink: "#",
-      githubLink: "https://github.com/IT21016820/collette",
+      githubLink: "https://github.com/ashani-rasangika/collette",
       duration: "2 months",
       team: "Team of 4 (Academic)",
       features: [
@@ -89,7 +89,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "GitHub"],
       image: "/lovable-uploads/7b3b42c2-ecc2-4902-9f6d-f73d90048f81.png",
       liveLink: "#",
-      githubLink: "https://github.com/IT21016820/IDEWithAI",
+      githubLink: "https://github.com/ashani-rasangika/IDEWithAI",
       duration: "3 months",
       team: "Team of 4 (Academic) – Project Leader",
       features: [
@@ -108,7 +108,7 @@ const Projects = () => {
       technologies: ["Flutter", "Firebase", "Dart", "GitHub", "Figma"],
       image: "/lovable-uploads/cc159a01-7791-4c5b-a22e-3f9a5727071f.png",
       liveLink: "#",
-      githubLink: "https://github.com/IT21016820/plustik",
+      githubLink: "https://github.com/ashani-rasangika/plustik",
       duration: "4 months",
       team: "Team of 4 (Academic) – Project Leader",
       features: [
@@ -134,7 +134,7 @@ const Projects = () => {
       ],
       image: "/lovable-uploads/af267d21-88a1-4a78-b51c-ad7889b47afe.png",
       liveLink: "#",
-      githubLink: "https://github.com/IT21016820/-CSSE_WE_27-DS",
+      githubLink: "https://github.com/ashani-rasangika/-CSSE_WE_27-DS",
       duration: "4 months",
       team: "Team of 4 (Academic)",
       features: [
@@ -161,7 +161,7 @@ const Projects = () => {
       ],
       image: "/lovable-uploads/c61e7dab-1448-482e-a42d-7d91b7f4d61a.png",
       liveLink: "#",
-      githubLink: "https://github.com/IT21016820/CSSE_WE_27-AF",
+      githubLink: "https://github.com/ashani-rasangika/CSSE_WE_27-AF",
       duration: "5 months",
       team: "Team Project (Academic)",
       features: [

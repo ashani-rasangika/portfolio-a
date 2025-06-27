@@ -165,7 +165,7 @@ const About = () => {
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
         color: "from-yellow-400 to-orange-500",
       },
-            {
+      {
         name: "PostgreSQL",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
         color: "from-blue-600 to-blue-700",
@@ -246,10 +246,11 @@ const About = () => {
               <div className="relative z-10">
                 <h3 className="text-3xl font-bold text-white">Who Am I?</h3>
                 <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed text-justify">
-                  Hello! I'm Ashani Rasangika Dewmini. I'm a passionate full-stack developer with expertise in
-                  creating digital solutions that make a difference. I
-                  specialize in building scalable web applications using modern
-                  technologies and love working with cutting-edge frameworks.
+                  Hello! I'm Ashani Rasangika Dewmini. I'm a passionate
+                  full-stack developer with expertise in creating digital
+                  solutions that make a difference. I specialize in building
+                  scalable web applications using modern technologies and love
+                  working with cutting-edge frameworks.
                 </p>
                 <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed text-justify">
                   As a full-stack developer, I have experience with both
@@ -278,7 +279,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
         <div className="mb-20">
           <div className="flex items-center gap-3 mb-8">
             <Briefcase className="text-blue-400" size={32} />
@@ -301,7 +301,7 @@ const About = () => {
                   />
                 </div>
 
-                <div className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 p-[1px] rounded-2xl">
+                <div className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 p-[1px] rounded-2xl transition transform duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/30 ml-4">
                   <div className="bg-gray-900 rounded-2xl p-6 h-full">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                       <div>
