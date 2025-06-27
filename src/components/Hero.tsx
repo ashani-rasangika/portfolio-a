@@ -45,7 +45,7 @@ const Hero = () => {
               </h2>
             </div>
 
-            <p className="text-gray-300 text-lg lg:text-xl leading-relaxed max-w-2xl">
+            <p className="text-gray-300 text-lg lg:text-xl leading-relaxed max-w-2xl text-justify">
               Driven by curiosity and creativity, I enjoy turning ideas into
               meaningful and impactful outcomes. As a full-stack developer, I
               create complete web solutions from frontend to backend. With a

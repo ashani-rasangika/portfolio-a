@@ -126,7 +126,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2025 Ashani Dewmini. All rights reserved.
+            © 2025 Ashani Dewmini. All Rights Reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
             Code with purpose🎯 Design with care🚀
