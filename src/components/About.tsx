@@ -8,7 +8,7 @@ const About = () => {
       position: "Associate Software Engineer",
       period: "Aug 2024 - Oct 2024",
       description:
-        "As an Associate Software Engineer, I worked on various projects using React.js, Node.js, Express.js, Java, JavaScript, SQL, MongoDB, Redux, FileZilla, Heroku, Cloudinary, Stripe, Agora SDK, CSS, and HTML. I collaborated with foreign product owners and practiced Agile Scrum on a 3-week sprint cycle.",
+        "As an Associate Software Engineer, I worked on various full-stack projects using Next.js, Node.js, Express.js, MongoDB. I led small-scale feature implementations, supported junior developers, and ensured high code quality and performance throughout the development lifecycle, following Agile methodologies.",
       type: "FULL TIME",
       logo: "https://i.ibb.co/yBdG5dqr/neurait.png",
     },
@@ -17,7 +17,7 @@ const About = () => {
       position: "Software Engineer Intern",
       period: "Feb 2024 - Aug 2024",
       description:
-        "Contributed to feature development across several projects while collaborating directly with foreign product owners. Practiced Agile Scrum on a 3-week sprint cycle and participated in scrum meetings. Worked as a Full-Stack Developer, gaining hands-on experience with technologies including React.js, Node.js, Express.js, Java, JavaScript, SQL, MongoDB, Redux, FileZilla, Heroku, Cloudinary, Stripe, Agora SDK, CSS, and HTML.",
+        "As an Intern Software Engineer, I contributed to full-stack application development using Next.js, Node.js, Express.js, MongoDB, and TypeScript. I gained hands-on experience in building user interfaces with Tailwind CSS, managing assets via Cloudinary, and collaborating in an Agile environment with regular sprint planning and reviews.",
       type: "FULL TIME",
       logo: "https://i.ibb.co/yBdG5dqr/neurait.png",
     },
@@ -25,20 +25,24 @@ const About = () => {
 
   const education = [
     {
-      degree: "BSc (Hons) in Information Technology",
-      institution: "Sri Lanka Institute of Information Technology, Malabe",
+      degree:
+        "BSc (Hons) in Information Technology, Specializing in Software Engineering",
+      institution:
+        "Sri Lanka Institute of Information Technology (SLIIT), Malabe",
       period: "February 2021 - March 2025",
-      description: "Specialising in Software Engineering",
-      achievement:
-        "Achieving a 3.10 GPA and securing a Second Lower-Class grade.",
+      description:
+        "Comprehensive four-year degree program focused on core software engineering principles, including software development, system design, database management, and agile methodologies. Gained hands-on experience through academic projects and industry training.",
+      achievement: "Graduated with Second Class Honours (Lower Division)",
       logo: "https://i.ibb.co/ZpmgxH17/SLIIT-Logo-Crest.png",
     },
     {
-      degree: "Advanced Level Education",
+      degree: "Secondary and Advanced Level Education",
       institution: "Girls' High School, Kandy",
       period: "2010 January - 2019 December",
-      description: "Completed advanced studies in Science stream",
-      achievement: "Successfully completed with good grades",
+      description:
+        "Completed General Certificate of Education Ordinary Level (O/L) and pursued Advanced Level (A/L) education in the Science stream.",
+      achievement:
+        "G.C.E. Advanced Level Results – Biology: B, Chemistry: S, Physics: S, General English: A",
       logo: "https://i.ibb.co/TxyWqbYx/scllogo.jpg",
     },
   ];
@@ -55,6 +59,12 @@ const About = () => {
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
         color: "from-yellow-400 to-yellow-500",
       },
+      {
+        name: "Next.js",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        color: "from-black to-gray-700",
+      },
+
       {
         name: "TypeScript",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -113,10 +123,11 @@ const About = () => {
         color: "from-indigo-500 to-purple-600",
       },
       {
-        name: "Laravel",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
-        color: "from-red-500 to-red-600",
+        name: ".NET",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg",
+        color: "from-purple-600 to-purple-800",
       },
+
       {
         name: "Java",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
@@ -251,14 +262,16 @@ const About = () => {
               </div>
             </div>
             <div className="relative">
-              <div className=" flex items-center justify-center">
+              <div className="flex items-center justify-center">
                 <div className="text-center">
-                  <div className="w-80 h-82  mx-auto mb-4 overflow-hidden">
-                    <img
-                      src="https://i.ibb.co/8n7MwCbd/PAP08143.jpg"
-                      alt="Ashani"
-                      className="w-full h-full object-cover"
-                    />
+                  <div className="w-80 h-82 mx-auto mb-4 p-1 bg-gradient-to-tr from-purple-500 via-blue-500 to-cyan-400 shadow-lg shadow-cyan-500/30 rounded-2xl">
+                    <div className="w-full h-full overflow-hidden rounded-xl">
+                      <img
+                        src="https://i.ibb.co/8n7MwCbd/PAP08143.jpg"
+                        alt="Ashani"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -449,7 +462,7 @@ const About = () => {
             <h4 className="text-2xl font-semibold text-cyan-400 mb-6 text-center">
               Frontend
             </h4>
-            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-9 gap-4">
               {techStack.frontend.map((tech, index) => (
                 <div
                   key={index}
