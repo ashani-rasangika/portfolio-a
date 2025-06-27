@@ -77,7 +77,7 @@ const Footer = () => {
                 <span className="text-gray-400">UI/UX Design</span>
               </li>
               <li>
-                <span className="text-gray-400">Consulting</span>
+                <span className="text-gray-400">AI & Machine Learning</span>
               </li>
             </ul>
           </div>
@@ -126,10 +126,10 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Developer Portfolio. All rights reserved.
+            © 2025 Ashani Dewmini. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm mt-4 md:mt-0">
-            Made with ❤️ using React & Tailwind CSS
+            Code with purpose🎯 Design with care🚀
           </p>
         </div>
       </div>

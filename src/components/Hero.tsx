@@ -35,7 +35,7 @@ const Hero = () => {
                 <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
                   I'M A{" "}
                   <TypingAnimation
-                    texts={["FULL-STACK DEVELOPER", "AI ENTHUSIAST"]}
+                    texts={["FULL-STACK DEVELOPER", "TECH INNOVATOR"]}
                     speed={100}
                     deleteSpeed={75}
                     pauseTime={2000}

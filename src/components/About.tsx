@@ -246,7 +246,7 @@ const About = () => {
               <div className="relative z-10">
                 <h3 className="text-3xl font-bold text-white">Who Am I?</h3>
                 <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed text-justify">
-                  I'm a passionate full-stack developer with expertise in
+                  Hello! I'm Ashani Rasangika Dewmini. I'm a passionate full-stack developer with expertise in
                   creating digital solutions that make a difference. I
                   specialize in building scalable web applications using modern
                   technologies and love working with cutting-edge frameworks.

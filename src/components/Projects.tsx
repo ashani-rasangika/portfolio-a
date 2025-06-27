@@ -7,60 +7,50 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "FinGuard – Personal Finance Tracker",
       category: "personal",
       description:
-        "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard with real-time inventory management.",
+        "FinGuard is a personal finance tracking web application designed to help users manage income, expenses, and budgeting efficiently. It features intuitive dashboards, category-based transaction tracking, and visual insights to promote better financial decision-making.",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
       image:
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
       liveLink: "#",
       githubLink: "#",
-      duration: "3 months",
+      duration: "",
       team: "Solo Project",
       features: [
-        "User Authentication",
-        "Payment Integration",
-        "Admin Dashboard",
-        "Real-time Updates",
+        "User Authentication & Secure Login",
+        "Add & Categorize Income and Expenses",
+        "Interactive Financial Charts & Insights",
+        "Responsive Dashboard Interface",
       ],
     },
+
     {
-      title: "Task Management System",
-      category: "internship",
+      title:
+        "Todly - Multimodal Approach for Toddler Safety and Well-Being Using Advanced Machine Learning (Research Project)",
+      category: "university",
       description:
-        "A collaborative task management application developed during my internship at Tech Solutions. Features real-time updates, drag-and-drop functionality, and team collaboration tools.",
-      technologies: ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
-      image:
-        "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      liveLink: "#",
-      githubLink: "#",
-      duration: "6 months",
-      team: "Team of 4",
-      features: [
-        "Real-time Collaboration",
-        "Drag & Drop",
-        "Team Management",
-        "Progress Tracking",
+        "In my research project, I developed a smart toddler monitoring system aimed at enhancing child safety through real-time object detection and alert mechanisms. As the team leader, I applied both software engineering and machine learning techniques to create an innovative solution that detects potentially harmful objects or situations and notifies caregivers instantly. This work not only showcases my technical and leadership skills but also reflects my commitment to building impactful technology that prioritizes child safety and well-being.",
+      technologies: [
+        "Flutter",
+        "Flask",
+        "Machine Learning",
+        "Artificial Intelligence",
+        "GitHub",
       ],
-    },
-    {
-      title: "Weather Dashboard",
-      category: "personal",
-      description:
-        "A responsive weather dashboard that displays current weather conditions and forecasts for multiple locations with beautiful data visualizations and historical data analysis.",
-      technologies: ["React", "Chart.js", "OpenWeather API", "Tailwind"],
-      image:
-        "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      liveLink: "#",
-      githubLink: "#",
-      duration: "2 months",
-      team: "Solo Project",
+      image: "https://i.ibb.co/DH6ZvpRq/picture4.png",
+      liveLink: "https://todlyresearch.web.app/",
+      githubLink: "",
+      duration: "12 months",
+      team: "Team of 4 (Academic) – Project Leader",
       features: [
-        "Multi-location Support",
-        "Data Visualization",
-        "Historical Data",
-        "Responsive Design",
+        "Real-Time Object Detection Using Machine Learning",
+        "Instant Alert Notifications to Caregivers",
+        "Smart Threat Identification (e.g., Harmful Objects)",
+        "Multimodal Monitoring Interface",
+        "Mobile-Friendly Monitoring Application",
+        "AI-Powered Safety & Behavior Analysis",
       ],
     },
     {
@@ -99,7 +89,7 @@ const Projects = () => {
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "GitHub"],
       image: "/lovable-uploads/7b3b42c2-ecc2-4902-9f6d-f73d90048f81.png",
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/IT21016820/IDEWithAI",
       duration: "3 months",
       team: "Team of 4 (Academic) – Project Leader",
       features: [
@@ -118,7 +108,7 @@ const Projects = () => {
       technologies: ["Flutter", "Firebase", "Dart", "GitHub", "Figma"],
       image: "/lovable-uploads/cc159a01-7791-4c5b-a22e-3f9a5727071f.png",
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/IT21016820/plustik",
       duration: "4 months",
       team: "Team of 4 (Academic) – Project Leader",
       features: [
@@ -144,7 +134,7 @@ const Projects = () => {
       ],
       image: "/lovable-uploads/af267d21-88a1-4a78-b51c-ad7889b47afe.png",
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/IT21016820/-CSSE_WE_27-DS",
       duration: "4 months",
       team: "Team of 4 (Academic)",
       features: [
@@ -171,7 +161,7 @@ const Projects = () => {
       ],
       image: "/lovable-uploads/c61e7dab-1448-482e-a42d-7d91b7f4d61a.png",
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/IT21016820/CSSE_WE_27-AF",
       duration: "5 months",
       team: "Team Project (Academic)",
       features: [
@@ -183,22 +173,85 @@ const Projects = () => {
       ],
     },
     {
-      title: "Social Media Analytics",
+      title: "Pinky's Web Application",
       category: "internship",
       description:
-        "Analytics dashboard for social media management developed during internship. Features data visualization, scheduling, and multi-platform integration with detailed reporting.",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Chart.js"],
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      liveLink: "#",
-      githubLink: "#",
+        "During my internship, I developed Pinky's, an e-commerce web application focused on clothing retail. I contributed to both the frontend and backend, ensuring a seamless and responsive shopping experience. This project strengthened my full-stack development skills and gave me hands-on experience in optimizing application performance, managing data flow, and building user-friendly interfaces for a commercial platform.",
+      technologies: [
+        "Next.js",
+        "Express.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Redux",
+      ],
+      image: "https://i.ibb.co/39RLZhCz/Picture3.png",
+      // liveLink: "#",
+      // githubLink: "#",
       duration: "5 months",
       team: "Team of 5",
       features: [
-        "Multi-platform Integration",
-        "Data Visualization",
-        "Automated Scheduling",
-        "Performance Reports",
+        "User Authentication & Authorization",
+        "Product Catalog with Filtering & Search",
+        "Shopping Cart & Checkout Functionality",
+        "Responsive User Interface",
+        "Admin Dashboard for Product Management",
+        "Order History and Tracking",
+      ],
+    },
+    {
+      title: "PiumiSkin – E-Commerce Web App",
+      category: "internship",
+      description:
+        "During my internship, I also worked on PiumiSkin, an e-commerce application focused on selling skincare products and owned by a well-known Sri Lankan actress. The platform was designed with mobile responsiveness in mind, ensuring a smooth shopping experience across devices. Users could browse and filter products by category, add items to their cart, and complete purchases with ease. This project gave me valuable insight into building user-centric e-commerce solutions and reinforced the importance of adapting to real client requirements throughout the development process.",
+      technologies: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Bootstrap",
+        "GitHub",
+        "JavaScript",
+      ],
+      image: "https://i.ibb.co/HT8JsKpS/Picture2.png",
+      // liveLink: "#",
+      // githubLink: "#",
+      duration: "6 months",
+      team: "Team of 5",
+      features: [
+        "Mobile-Responsive Design",
+        "Category-Based Product Filtering",
+        "Add-to-Cart & Checkout Functionality",
+        "Secure Payment Integration",
+        "Order Confirmation & Notifications",
+        "User-Friendly Product Browsing Experience",
+      ],
+    },
+    {
+      title: "ARG Workforce – Modern Recruitment Platform",
+      category: "internship",
+      description:
+        "During my internship, I contributed to ARG Workforce, a recruitment-focused web application designed to connect job seekers with employers. The platform enables users to create profiles, search for job opportunities by category, and engage in discussions by asking questions related to the job search process. It was built with mobile responsiveness in mind, ensuring a smooth experience across all devices. This project was a great opportunity to strengthen my full-stack development skills while also gaining experience in understanding client needs and translating them into effective, real-world solutions.",
+      technologies: [
+        "Next.js",
+        "Express.js",
+        "Node.js",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Redux",
+      ],
+      image: "https://i.ibb.co/7tbD6d9R/Picture1.png",
+      // liveLink: "#",
+      // githubLink: "#",
+      duration: "5 months",
+      team: "Team of 5",
+      features: [
+        "User Authentication & Role-Based Access",
+        "Job Listing & Category-Based Search",
+        "Profile Creation for Job Seekers & Employers",
+        "Responsive Design Across Devices",
+        "Job Application Tracking",
+        "Interactive Q&A Section for Career Discussions",
       ],
     },
   ];
@@ -375,22 +428,32 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex gap-4">
-            <a
-              href={project.liveLink}
-              className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
-            >
-              <ExternalLink size={18} />
-              Live Demo
-            </a>
-            <a
-              href={project.githubLink}
-              className="flex items-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition-colors font-medium"
-            >
-              <Github size={18} />
-              Source Code
-            </a>
-          </div>
+          {project.category !== "internship" && (
+            <div className="flex gap-4">
+              {project.liveLink && (
+                <a
+                  href={project.liveLink}
+                  className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink size={18} />
+                  Live Demo
+                </a>
+              )}
+              {project.githubLink && (
+                <a
+                  href={project.githubLink}
+                  className="flex items-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition-colors font-medium"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Github size={18} />
+                  Source Code
+                </a>
+              )}
+            </div>
+          )}
         </div>
       </div>
     </div>

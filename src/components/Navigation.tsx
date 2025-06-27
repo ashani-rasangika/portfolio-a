@@ -1,16 +1,15 @@
-
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: 'HOME', href: '#home' },
-    { name: 'ABOUT ME', href: '#about' },
-    { name: 'PROJECTS', href: '#projects' },
-    { name: 'SERVICES', href: '#services' },
-    { name: 'CONTACT', href: '#contact' }
+    { name: "HOME", href: "#home" },
+    { name: "ABOUT ME", href: "#about" },
+    { name: "PROJECTS", href: "#projects" },
+    { name: "SERVICES", href: "#services" },
+    { name: "CONTACT", href: "#contact" },
   ];
 
   return (
@@ -18,12 +17,15 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <img 
-              src="/lovable-uploads/9fb2e94f-6d62-49bc-a8c7-21072a3173d6.png" 
-              alt="ARD Logo" 
+          <div className="flex items-center gap-3 flex-shrink-0">
+            <img
+              src="/lovable-uploads/9fb2e94f-6d62-49bc-a8c7-21072a3173d6.png"
+              alt="ARD Logo"
               className="h-10 w-10"
             />
+            <span className="text-white font-semibold text-lg tracking-wide">
+              ASHANI DEWMINI
+            </span>
           </div>
 
           {/* Desktop Navigation */}

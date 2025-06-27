@@ -43,7 +43,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "Malandeniya, kahapathwala, Sri Lanka",
+      value: "Malandeniya, Kahapathwala, Sri Lanka",
       link: "#",
     },
   ];
