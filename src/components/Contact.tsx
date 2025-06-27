@@ -1,61 +1,70 @@
-
-import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import React, { useState } from "react";
+import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
     // Reset form
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
   const contactInfo = [
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "hello@developer.com",
-      link: "mailto:hello@developer.com"
+      value: "ashanidewmini33@gmail.com",
+      link: "ashanidewmini33@gmail.com",
     },
-    {
-      icon: <Phone className="w-6 h-6" />,
-      title: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567"
-    },
+    // {
+    //   icon: <Phone className="w-6 h-6" />,
+    //   title: "Phone",
+    //   value: "+94 75 401 5797",
+    //   link: "tel:+15551234567"
+    // },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "New York, NY",
-      link: "#"
-    }
+      value: "Malandeniya, kahapathwala, Sri Lanka",
+      link: "#",
+    },
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-gray-900 via-blue-900/20 to-purple-900/20">
+    <section
+      id="contact"
+      className="py-20 bg-gradient-to-br from-gray-900 via-blue-900/20 to-purple-900/20"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-4">
-            Get In <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Touch</span>
+            Get In{" "}
+            <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+              Touch
+            </span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can work together to bring your ideas to life
+            Have a project in mind? Let's discuss how we can work together to
+            bring your ideas to life
           </p>
         </div>
 
@@ -65,9 +74,10 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Let's Talk</h3>
               <p className="text-gray-300 leading-relaxed mb-8">
-                I'm always interested in hearing about new projects and opportunities. 
-                Whether you're a startup looking to build your first product or an established 
-                company wanting to innovate, I'd love to hear from you.
+                I'm always interested in hearing about new projects and
+                opportunities. Whether you're a startup looking to build your
+                first product or an established company wanting to innovate, I'd
+                love to hear from you.
               </p>
             </div>
 
@@ -91,17 +101,35 @@ const Contact = () => {
             </div>
 
             {/* Social Links */}
+            {/* Social Links */}
             <div className="pt-8">
-              <h4 className="text-lg font-semibold text-white mb-4">Follow Me</h4>
+              <h4 className="text-lg font-semibold text-white mb-4">
+                Follow Me
+              </h4>
               <div className="flex gap-4">
-                <a href="#" className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110">
-                  <span className="font-bold">in</span>
+                <a
+                  href="https://www.linkedin.com/in/ashani-rasangika/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110"
+                >
+                  <FaLinkedinIn size={20} />
                 </a>
-                <a href="#" className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110">
-                  <span className="font-bold">gh</span>
+                <a
+                  href="https://github.com/IT21016820"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110"
+                >
+                  <FaGithub size={20} />
                 </a>
-                <a href="#" className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110">
-                  <span className="font-bold">tw</span>
+                <a
+                  href="https://www.facebook.com/your-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110"
+                >
+                  <FaFacebookF size={20} />
                 </a>
               </div>
             </div>
@@ -109,13 +137,18 @@ const Contact = () => {
 
           {/* Contact Form */}
           <div className="bg-gray-800/50 p-8 rounded-xl border border-gray-700/50">
-            <h3 className="text-2xl font-bold text-white mb-6">Send Me a Message</h3>
-            
+            <h3 className="text-2xl font-bold text-white mb-6">
+              Send Me a Message
+            </h3>
+
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name and Email Row */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label htmlFor="name" className="block text-gray-300 text-sm font-medium mb-2">
+                  <label
+                    htmlFor="name"
+                    className="block text-gray-300 text-sm font-medium mb-2"
+                  >
                     Name
                   </label>
                   <input
@@ -130,7 +163,10 @@ const Contact = () => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-gray-300 text-sm font-medium mb-2">
+                  <label
+                    htmlFor="email"
+                    className="block text-gray-300 text-sm font-medium mb-2"
+                  >
                     Email
                   </label>
                   <input
@@ -148,7 +184,10 @@ const Contact = () => {
 
               {/* Subject */}
               <div>
-                <label htmlFor="subject" className="block text-gray-300 text-sm font-medium mb-2">
+                <label
+                  htmlFor="subject"
+                  className="block text-gray-300 text-sm font-medium mb-2"
+                >
                   Subject
                 </label>
                 <input
@@ -165,7 +204,10 @@ const Contact = () => {
 
               {/* Message */}
               <div>
-                <label htmlFor="message" className="block text-gray-300 text-sm font-medium mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-gray-300 text-sm font-medium mb-2"
+                >
                   Message
                 </label>
                 <textarea

@@ -141,11 +141,6 @@ const About = () => {
     ],
     database: [
       {
-        name: "PostgreSQL",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
-        color: "from-blue-600 to-blue-700",
-      },
-      {
         name: "MongoDB",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
         color: "from-green-500 to-green-600",
@@ -169,6 +164,11 @@ const About = () => {
         name: "Firebase",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
         color: "from-yellow-400 to-orange-500",
+      },
+            {
+        name: "PostgreSQL",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        color: "from-blue-600 to-blue-700",
       },
     ],
     tools: [
