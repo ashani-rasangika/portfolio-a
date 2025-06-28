@@ -14,7 +14,9 @@ const Footer = () => {
                 alt="ARD Logo"
                 className="h-10 w-10"
               />
-              <span className="text-white font-bold text-xl">
+              <span className="text-white font-bold text-xl ransition-all duration-300
+  hover:bg-gradient-to-r hover:from-blue-400 hover:via-purple-500 hover:to-pink-500 
+  hover:bg-clip-text hover:text-transparent">
                 ASHANI DEWMINI
               </span>
             </div>
@@ -26,7 +28,13 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+            <h3
+              className="text-white font-semibold mb-4 transition-all duration-300
+  hover:bg-gradient-to-r hover:from-blue-400 hover:via-purple-500 hover:to-pink-500 
+  hover:bg-clip-text hover:text-transparent"
+            >
+              Quick Links
+            </h3>
             <ul className="space-y-2">
               <li>
                 <a
@@ -65,7 +73,14 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Services</h3>
+            <h3
+              className="text-white font-semibold mb-4 transition-all duration-300
+  hover:bg-gradient-to-r hover:from-blue-400 hover:via-purple-500 hover:to-pink-500 
+  hover:bg-clip-text hover:text-transparent"
+            >
+              Services
+            </h3>
+
             <ul className="space-y-2">
               <li>
                 <span className="text-gray-400">Web Development</span>
@@ -84,7 +99,15 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Get In Touch</h3>
+            <div className="group">
+              <h3
+                className="text-white font-semibold mb-4 transition-all duration-300 
+    group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:via-purple-500 group-hover:to-pink-500 
+    group-hover:bg-clip-text group-hover:text-transparent"
+              >
+                Get In Touch
+              </h3>
+            </div>
             <div className="space-y-2">
               <a
                 href="mailto:ashanidewmini33@gmail.com"

@@ -11,7 +11,7 @@ const Projects = () => {
       category: "personal",
       description:
         "FinGuard is a personal finance tracking web application designed to help users manage income, expenses, and budgeting efficiently. It features intuitive dashboards, category-based transaction tracking, and visual insights to promote better financial decision-making.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["React.js", "Node.js", "MongoDB", "Stripe"],
       image: "https://i.ibb.co/4ZkDGQ3R/finguard.png",
       liveLink: "#",
       githubLink: "#",
@@ -68,7 +68,7 @@ const Projects = () => {
         "Android",
       ],
       image: "/lovable-uploads/08a29317-1706-45e3-8ebf-f4ce0078db39.png",
-      liveLink: "#",
+      liveLink: "",
       githubLink: "https://github.com/ashani-rasangika/collette",
       duration: "2 months",
       team: "Team of 4 (Academic)",
@@ -85,9 +85,9 @@ const Projects = () => {
       category: "university",
       description:
         "An AI-enhanced JavaScript IDE built with the MERN stack. Features include real-time code feedback, a virtual mentor for learning support, and structured project organization tools.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB", "GitHub"],
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "GitHub"],
       image: "/lovable-uploads/7b3b42c2-ecc2-4902-9f6d-f73d90048f81.png",
-      liveLink: "#",
+      liveLink: "",
       githubLink: "https://github.com/ashani-rasangika/IDEWithAI",
       duration: "3 months",
       team: "Team of 4 (Academic) – Project Leader",
@@ -124,7 +124,7 @@ const Projects = () => {
       description:
         "An online marketplace for Ayurvedic and herbal products, built with microservices architecture. Offers secure payments, seller support, and a user-friendly interface for buyers and sellers.",
       technologies: [
-        "React",
+        "React.js",
         "Node.js",
         "Express.js",
         "MongoDB",
@@ -132,7 +132,7 @@ const Projects = () => {
         "Kubernetes",
       ],
       image: "/lovable-uploads/af267d21-88a1-4a78-b51c-ad7889b47afe.png",
-      liveLink: "#",
+      liveLink: "",
       githubLink: "https://github.com/ashani-rasangika/-CSSE_WE_27-DS",
       duration: "4 months",
       team: "Team of 4 (Academic)",
@@ -159,7 +159,7 @@ const Projects = () => {
         "JavaScript",
       ],
       image: "/lovable-uploads/c61e7dab-1448-482e-a42d-7d91b7f4d61a.png",
-      liveLink: "#",
+      liveLink: "",
       githubLink: "https://github.com/ashani-rasangika/CSSE_WE_27-AF",
       duration: "5 months",
       team: "Team Project (Academic)",
@@ -432,7 +432,7 @@ const Projects = () => {
               {project.liveLink && (
                 <a
                   href={project.liveLink}
-                  className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+                  className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors font-medium"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -443,7 +443,7 @@ const Projects = () => {
               {project.githubLink && (
                 <a
                   href={project.githubLink}
-                  className="flex items-center gap-2 bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition-colors font-medium"
+                  className="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

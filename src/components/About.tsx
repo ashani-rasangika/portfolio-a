@@ -54,7 +54,7 @@ const About = () => {
   const techStack = {
     frontend: [
       {
-        name: "React",
+        name: "React.js",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         color: "from-blue-400 to-cyan-400",
       },

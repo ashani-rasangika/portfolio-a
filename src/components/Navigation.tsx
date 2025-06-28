@@ -23,7 +23,9 @@ const Navigation = () => {
               alt="ARD Logo"
               className="h-10 w-10"
             />
-            <span className="text-white font-semibold text-lg tracking-wide">
+            <span className="text-white font-semibold text-lg tracking-wide ransition-all duration-300
+  hover:bg-gradient-to-r hover:from-blue-400 hover:via-purple-500 hover:to-pink-500 
+  hover:bg-clip-text hover:text-transparent">
               ASHANI DEWMINI
             </span>
           </div>
