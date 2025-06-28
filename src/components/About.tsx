@@ -42,8 +42,8 @@ const About = () => {
       description:
         "Completed General Certificate of Education Ordinary Level (O/L) and pursued Advanced Level (A/L) education in the Science stream.",
       achievements: [
-        "G.C.E. A/L Results – Biology: B, Chemistry: S, Physics: S, General English: A",
-        "G.C.E. O/L Results – English: A, Mathematics: A, Total: 7 A’s, 2 B’s",
+        "G.C.E. A/L Results(2019) – Biology: B, Chemistry: S, Physics: S, General English: A",
+        "G.C.E. O/L Results(2015) – English: A, Mathematics: A, Total: 7 A’s, 2 B’s",
         "President of SCM –  A Committee Member of School Senior Prefect Board, 2016–2017",
         "Committee Member – Astronomical Society, 2017",
       ],
