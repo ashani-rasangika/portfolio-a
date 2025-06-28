@@ -4,7 +4,7 @@ import { Briefcase, GraduationCap, Code } from "lucide-react";
 const About = () => {
   const workExperience = [
     {
-      company: "Neura IT (FagginApps Pvt Ltd)",
+      company: "Neura IT (formerly FagginApps Pvt Ltd)",
       position: "Associate Software Engineer",
       period: "Aug 2024 - Oct 2024",
       description:
@@ -13,7 +13,7 @@ const About = () => {
       logo: "https://i.ibb.co/yBdG5dqr/neurait.png",
     },
     {
-      company: "Neura IT (FagginApps Pvt Ltd)",
+      company: "Neura IT (formerly FagginApps Pvt Ltd)",
       position: "Software Engineer Intern",
       period: "Feb 2024 - Aug 2024",
       description:
@@ -32,7 +32,7 @@ const About = () => {
       period: "February 2021 - March 2025",
       description:
         "Comprehensive four-year degree program focused on core software engineering principles, including software development, system design, database management, and agile methodologies. Gained hands-on experience through academic projects and industry training.",
-      achievement: "Graduated with Second Class Honours (Lower Division)",
+      achievements: ["Graduated with Second Class Honours (Lower Division)"],
       logo: "https://i.ibb.co/ZpmgxH17/SLIIT-Logo-Crest.png",
     },
     {
@@ -41,8 +41,12 @@ const About = () => {
       period: "2010 January - 2019 December",
       description:
         "Completed General Certificate of Education Ordinary Level (O/L) and pursued Advanced Level (A/L) education in the Science stream.",
-      achievement:
-        "G.C.E. Advanced Level Results – Biology: B, Chemistry: S, Physics: S, General English: A",
+      achievements: [
+        "G.C.E. A/L Results – Biology: B, Chemistry: S, Physics: S, General English: A",
+        "G.C.E. O/L Results – English: A, Mathematics: A, Total: 7 A’s, 2 B’s",
+        "President of SCM –  A Committee Member of School Senior Prefect Board, 2016–2017",
+        "Committee Member – Astronomical Society, 2017",
+      ],
       logo: "https://i.ibb.co/TxyWqbYx/scllogo.jpg",
     },
   ];
@@ -434,16 +438,29 @@ const About = () => {
                       <p className="text-gray-300 mb-4 leading-relaxed">
                         {edu.description}
                       </p>
-                      <div className="flex items-start gap-3 p-4 bg-blue-500/10 rounded-lg border-l-4 border-blue-400 relative">
-                        <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
-                        <p className="text-blue-200 font-medium">
-                          {edu.achievement}
-                        </p>
-                        <div
-                          className="absolute inset-0 bg-gradient-to-r from-blue-400/5 to-transparent rounded-lg animate-pulse"
-                          style={{ animationDelay: `${index * 1.3}s` }}
-                        ></div>
-                      </div>
+
+                      {/* ACHIEVEMENTS LIST */}
+                      {edu.achievements && edu.achievements.length > 0 && (
+                        <div className="space-y-3 mt-4">
+                          {edu.achievements.map((ach, achIdx) => (
+                            <div
+                              key={achIdx}
+                              className="flex items-start gap-3 p-4 bg-blue-500/10 rounded-lg border-l-4 border-blue-400 relative"
+                            >
+                              <div className="w-2 h-2 bg-blue-400 rounded-full mt-2 flex-shrink-0 animate-pulse"></div>
+                              <p className="text-blue-200 font-medium">{ach}</p>
+                              <div
+                                className="absolute inset-0 bg-gradient-to-r from-blue-400/5 to-transparent rounded-lg animate-pulse"
+                                style={{
+                                  animationDelay: `${
+                                    index * 1.3 + achIdx * 0.2
+                                  }s`,
+                                }}
+                              ></div>
+                            </div>
+                          ))}
+                        </div>
+                      )}
                     </div>
                   </div>
                 </div>

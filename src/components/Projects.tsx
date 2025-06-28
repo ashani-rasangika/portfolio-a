@@ -12,8 +12,7 @@ const Projects = () => {
       description:
         "FinGuard is a personal finance tracking web application designed to help users manage income, expenses, and budgeting efficiently. It features intuitive dashboards, category-based transaction tracking, and visual insights to promote better financial decision-making.",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      image: "https://i.ibb.co/1fM3mfx3/finguard.png",
       liveLink: "#",
       githubLink: "#",
       duration: "",
@@ -28,7 +27,7 @@ const Projects = () => {
 
     {
       title:
-        "Todly - Multimodal Approach for Toddler Safety and Well-Being Using Advanced Machine Learning (Research Project)",
+        "Todly - Mobile Application (Research Project)",
       category: "university",
       description:
         "In my research project, I developed a smart toddler monitoring system aimed at enhancing child safety through real-time object detection and alert mechanisms. As the team leader, I applied both software engineering and machine learning techniques to create an innovative solution that detects potentially harmful objects or situations and notifies caregivers instantly. This work not only showcases my technical and leadership skills but also reflects my commitment to building impactful technology that prioritizes child safety and well-being.",

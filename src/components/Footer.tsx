@@ -103,7 +103,7 @@ const Footer = () => {
                   <FaLinkedinIn size={14} />
                 </a>
                 <a
-                  href="https://github.com/IT21016820"
+                  href="https://github.com/ashani-rasangika"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-gray-800 rounded flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200"
@@ -125,11 +125,14 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
+          <p className="text-sm font-semibold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             © 2025 Ashani Dewmini. All Rights Reserved.
           </p>
-          <p className="text-gray-400 text-sm mt-4 md:mt-0">
-            Code with purpose🎯 Design with care🚀
+          <p className="text-gray-400 text-sm mt-4 md:mt-0 font-medium">
+            Code with purpose
+            <span className="inline-block animate-bounce mx-1">🎯</span>
+            Design with care
+            <span className="inline-block animate-bounce mx-1">🚀</span>
           </p>
         </div>
       </div>

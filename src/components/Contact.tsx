@@ -19,13 +19,33 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted:", formData);
-    // Reset form
-    setFormData({ name: "", email: "", subject: "", message: "" });
-  };
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch("https://formspree.io/f/meokvrnr", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message
+      })
+    });
+
+    if (response.ok) {
+      alert("Message sent successfully!");
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } else {
+      alert("Something went wrong. Please try again later.");
+    }
+  } catch (err) {
+    console.error(err);
+    alert("Failed to send message. Please try again later.");
+  }
+};
+
 
   const contactInfo = [
     {
@@ -116,7 +136,7 @@ const Contact = () => {
                   <FaLinkedinIn size={20} />
                 </a>
                 <a
-                  href="https://github.com/IT21016820"
+                  href="https://github.com/ashani-rasangika"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center text-gray-300 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200 transform hover:scale-110"

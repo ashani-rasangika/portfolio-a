@@ -71,7 +71,7 @@ const Hero = () => {
                   <FaLinkedinIn size={20} />
                 </a>
                 <a
-                  href="https://github.com/IT21016820"
+                  href="https://github.com/ashani-rasangika"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-blue-400 hover:border-blue-400 transition-all duration-200 transform hover:scale-110"
