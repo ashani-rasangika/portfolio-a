@@ -12,7 +12,7 @@ const Projects = () => {
       description:
         "FinGuard is a personal finance tracking web application designed to help users manage income, expenses, and budgeting efficiently. It features intuitive dashboards, category-based transaction tracking, and visual insights to promote better financial decision-making.",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      image: "https://i.ibb.co/1fM3mfx3/finguard.png",
+      image: "https://i.ibb.co/4ZkDGQ3R/finguard.png",
       liveLink: "#",
       githubLink: "#",
       duration: "",
@@ -38,7 +38,7 @@ const Projects = () => {
         "Artificial Intelligence",
         "GitHub",
       ],
-      image: "https://i.ibb.co/DH6ZvpRq/picture4.png",
+      image: "https://i.ibb.co/MxjL2B2v/picture4.png",
       liveLink: "https://todlyresearch.web.app/",
       githubLink: "",
       duration: "12 months",

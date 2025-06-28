@@ -33,7 +33,7 @@ const About = () => {
       description:
         "Comprehensive four-year degree program focused on core software engineering principles, including software development, system design, database management, and agile methodologies. Gained hands-on experience through academic projects and industry training.",
       achievements: ["Graduated with Second Class Honours (Lower Division)"],
-      logo: "https://i.ibb.co/gGDKZ1x/scllogo.jpg",
+      logo: "https://i.ibb.co/k2NvThT4/SLIIT-Logo-Crest.png",
     },
     {
       degree: "Secondary and Advanced Level Education",
@@ -47,7 +47,7 @@ const About = () => {
         "President of SCM –  A Committee Member of School Senior Prefect Board, 2016–2017",
         "Committee Member – Astronomical Society, 2017",
       ],
-      logo: "https://i.ibb.co/TxyWqbYx/scllogo.jpg",
+      logo: "https://i.ibb.co/gGDKZ1x/scllogo.jpg",
     },
   ];
 
@@ -272,7 +272,7 @@ const About = () => {
                   <div className="w-80 h-82 mx-auto mb-4 p-1 bg-gradient-to-tr from-purple-500 via-blue-500 to-cyan-400 shadow-lg shadow-cyan-500/30 rounded-2xl">
                     <div className="w-full h-full overflow-hidden rounded-xl">
                       <img
-                        src="https://i.ibb.co/8n7MwCbd/PAP08143.jpg"
+                        src="https://i.ibb.co/8Lbh44cN/PAP08143.jpg"
                         alt="Ashani"
                         className="w-full h-full object-cover"
                       />
