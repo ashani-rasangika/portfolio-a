@@ -110,14 +110,14 @@ const Footer = () => {
                 >
                   <FaGithub size={14} />
                 </a>
-                {/* <a
-                  href="https://www.facebook.com/your-username"
+                <a
+                  href="https://www.facebook.com/ashani.r.dewmini"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-gray-800 rounded flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-gray-700 transition-all duration-200"
                 >
                   <FaFacebookF size={14} />
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

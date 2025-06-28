@@ -78,14 +78,14 @@ const Hero = () => {
                 >
                   <FaGithub size={20} />
                 </a>
-                {/* <a
-                  href="https://www.facebook.com/your-username"
+                <a
+                  href="https://www.facebook.com/ashani.r.dewmini"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center text-gray-300 hover:text-blue-400 hover:border-blue-400 transition-all duration-200 transform hover:scale-110"
                 >
                   <FaFacebookF size={20} />
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
