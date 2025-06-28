@@ -112,7 +112,7 @@ const About = () => {
         color: "from-blue-500 to-yellow-400",
       },
       {
-        name: "Express",
+        name: "Express.js",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
         color: "from-gray-600 to-gray-700",
       },
