@@ -1,5 +1,5 @@
 import React from "react";
-import { Download, Linkedin, Github, Facebook } from "lucide-react";
+import { Download } from "lucide-react";
 import TypingAnimation from "./TypingAnimation";
 import { FaLinkedinIn, FaGithub, FaFacebookF } from "react-icons/fa";
 
@@ -31,16 +31,23 @@ const Hero = () => {
                   ASHANI
                 </span>
               </h1>
-              <h2 className="text-3xl lg:text-5xl font-bold mt-4">
-                <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent">
+
+              <h2 className="text-3xl lg:text-5xl font-bold mt-4 min-h-[3.5rem] lg:min-h-[5rem] flex items-center">
+                <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent whitespace-nowrap">
                   I'M A{" "}
-                  <TypingAnimation
-                    texts={["SOFTWARE ENGINEER","TECH INNOVATOR","FULL-STACK DEVELOPER"]}
-                    speed={100}
-                    deleteSpeed={75}
-                    pauseTime={2000}
-                    className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"
-                  />
+                  <span className="inline-block whitespace-nowrap">
+                    <TypingAnimation
+                      texts={[
+                        "SOFTWARE ENGINEER",
+                        "TECH INNOVATOR",
+                        "FULL-STACK DEVELOPER",
+                      ]}
+                      speed={100}
+                      deleteSpeed={75}
+                      pauseTime={2000}
+                      className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent"
+                    />
+                  </span>
                 </span>
               </h2>
             </div>
@@ -91,23 +98,18 @@ const Hero = () => {
           </div>
 
           {/* Right content - Animated Laptop Illustration */}
-          <div className="relative animate-fade-in delay-500">
+          <div className="relative animate-fade-in delay-500 ml-2 sm:ml-4 md:ml-8 lg:ml-16 xl:ml-24">
             <div className="relative w-full max-w-lg mx-auto">
               {/* Glowing orbs */}
               <div className="absolute top-10 right-10 w-32 h-32 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur-xl opacity-70 animate-pulse"></div>
               <div className="absolute bottom-20 left-10 w-24 h-24 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full blur-xl opacity-70 animate-pulse delay-1000"></div>
 
-              {/* Main illustration - Girl with laptop */}
+              {/* Main illustration */}
               <div className="relative bg-gradient-to-br from-blue-500/20 to-purple-600/20 rounded-3xl p-8 backdrop-blur-sm border border-gray-700/50">
                 <div className="w-full h-96 bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl flex items-center justify-center relative overflow-hidden">
-                  {/* Animated laptop illustration */}
                   <div className="relative">
-                    {/* Laptop base */}
                     <div className="w-64 h-4 bg-gray-700 rounded-lg transform perspective-1000 rotateX-15"></div>
-
-                    {/* Laptop screen */}
                     <div className="w-64 h-40 bg-gray-800 rounded-t-lg border-4 border-gray-700 relative -mt-1">
-                      {/* Screen content with typing animation */}
                       <div className="w-full h-full bg-gradient-to-br from-blue-900 to-purple-900 rounded-sm p-4 flex flex-col">
                         <div className="flex gap-2 mb-3">
                           <div className="w-3 h-3 bg-red-500 rounded-full animate-pulse"></div>
@@ -122,17 +124,12 @@ const Hero = () => {
                       </div>
                     </div>
 
-                    {/* Person silhouette */}
                     <div className="absolute -right-8 -bottom-2 w-20 h-24 flex flex-col items-center">
-                      {/* Head */}
                       <div className="w-8 h-8 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full mb-1 animate-pulse"></div>
-                      {/* Body */}
                       <div className="w-12 h-16 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-lg animate-pulse delay-500"></div>
-                      {/* Arms reaching to laptop */}
                       <div className="absolute top-10 -left-2 w-6 h-2 bg-gradient-to-r from-blue-400 to-cyan-500 rounded transform -rotate-12 animate-pulse delay-700"></div>
                     </div>
 
-                    {/* Floating code elements */}
                     <div className="absolute -top-8 -left-4 text-blue-400 text-sm opacity-70 animate-bounce">
                       {"<>"}
                     </div>
@@ -147,6 +144,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
