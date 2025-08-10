@@ -11,7 +11,7 @@ const Projects = () => {
       category: "personal",
       description:
         "FinGuard is a personal finance tracking web application designed to help users manage income, expenses, and budgeting efficiently. It features intuitive dashboards, category-based transaction tracking, and visual insights to promote better financial decision-making.",
-      technologies: ["React.js", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["Next.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
       image: "https://i.ibb.co/4ZkDGQ3R/finguard.png",
       liveLink: "#",
       githubLink: "#",
@@ -204,7 +204,7 @@ const Projects = () => {
       description:
         "During my internship, I also worked on PiumiSkin, an e-commerce application focused on selling skincare products and owned by a well-known Sri Lankan actress. The platform was designed with mobile responsiveness in mind, ensuring a smooth shopping experience across devices. Users could browse and filter products by category, add items to their cart, and complete purchases with ease. This project gave me valuable insight into building user-centric e-commerce solutions and reinforced the importance of adapting to real client requirements throughout the development process.",
       technologies: [
-        "React.js",
+        "Next.js",
         "Node.js",
         "Express.js",
         "MongoDB",
