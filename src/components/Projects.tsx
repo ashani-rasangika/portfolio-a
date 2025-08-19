@@ -340,7 +340,7 @@ const Projects = () => {
           <img
             src={project.image}
             alt={project.title}
-            className="w-full h-64 object-cover rounded-t-2xl"
+            className="w-full h-90 object-cover rounded-t-2xl"
           />
           <button
             onClick={onClose}
