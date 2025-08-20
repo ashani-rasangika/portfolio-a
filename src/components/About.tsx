@@ -7,6 +7,7 @@ const About = () => {
       company: "Neura IT (formerly FagginApps Pvt Ltd)",
       position: "Associate Software Engineer",
       period: "Aug 2024 - Oct 2024",
+      website: "https://www.neurait.com/",
       description:
         "As an Associate Software Engineer, I worked on various full-stack projects using Next.js, Node.js, Express.js, MongoDB. I led small-scale feature implementations, supported junior developers, and ensured high code quality and performance throughout the development lifecycle, following Agile methodologies.",
       type: "FULL TIME",
@@ -16,6 +17,7 @@ const About = () => {
       company: "Neura IT (formerly FagginApps Pvt Ltd)",
       position: "Software Engineer Intern",
       period: "Feb 2024 - Aug 2024",
+      website: "https://www.neurait.com/",
       description:
         "As an Intern Software Engineer, I contributed to full-stack application development using Next.js, Node.js, Express.js, MongoDB, and TypeScript. I gained hands-on experience in building user interfaces with Tailwind CSS, managing assets via Cloudinary, and collaborating in an Agile environment with regular sprint planning and reviews.",
       type: "FULL TIME",
@@ -297,13 +299,18 @@ const About = () => {
                 className="flex items-start gap-6 animate-fade-in"
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
-                <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden">
+                <a
+                  href={job.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center flex-shrink-0 overflow-hidden"
+                >
                   <img
                     src={job.logo}
                     alt={job.company}
                     className="w-full h-full object-cover"
                   />
-                </div>
+                </a>
 
                 <div className="flex-1 bg-gradient-to-r from-blue-500 to-purple-600 p-[1px] rounded-2xl transition transform duration-300 hover:scale-105 hover:shadow-xl hover:shadow-purple-500/30 ml-4">
                   <div className="bg-gray-900 rounded-2xl p-6 h-full">
