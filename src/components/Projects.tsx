@@ -171,6 +171,48 @@ const Projects = () => {
         "User-friendly Travel Experience",
       ],
     },
+        {
+      title: "NextPass - Digital Ticketing System for Public Transport",
+      category: "university",
+      description:
+        "NextPass is a modern digital ticketing solution designed for Sri Lanka’s public transportation network. The system integrates smartcards, QR codes, and digital tokens to simplify fare collection and reduce operational delays. By providing a seamless travel experience for passengers and improving efficiency for operators, NextPass contributes to a smarter, faster, and more reliable public transport system.",
+      technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "GitHub"],
+      image: "https://i.ibb.co/MyYSTf3D/nextpassimg1.png",
+      liveLink: "",
+      githubLink: "https://github.com/ashani-rasangika/nextpassWEB",
+      duration: "3 months",
+      team: "Team of 4 (Academic)",
+      features: [
+        "QR Code Scanning",
+        "Cashless Payments",
+        "Folder-based Project Structure",
+        "Secure Transactions",
+        "User-friendly Interface",
+      ],
+    },
+            {
+      title: "Café Green – Restaurant Management System",
+      category: "university",
+      description:
+        "Café Green, a popular restaurant in Colombo, faced challenges with manual operations that caused inefficiency, higher costs, and risks of data loss. To overcome these issues, a web-based management system was introduced to automate daily processes such as order handling, employee tracking, supplier coordination, stock management, and financial accounts. The system also supports full CRUD operations for managing data efficiently, leading to improved productivity, reduced expenses, and an enhanced customer experience.",
+      technologies: ["Vue.js", "FastAPI", "SQL", "GitHub", "SwaggerUI", "Figma", "Trello"],
+      image: "https://i.ibb.co/G4TNFNgN/cafe1.png",
+      liveLink: "",
+      githubLink: "https://github.com/ashani-rasangika/CafeGreenRestuarentManagementSystem",
+      duration: "4 months",
+      team: "Team of 8 (Academic)",
+      features: [
+        "Employee Management",
+        "Menu Customization",
+        "Order Management",
+        "Supplier Management",
+        "Stock Management",
+        "Customer Management",
+        "Financial Accounts Management",
+        "Reports & Analytics",
+        
+      ],
+    },
     {
       title: "Pinky's Web Application",
       category: "internship",
@@ -184,7 +226,7 @@ const Projects = () => {
         "Bootstrap",
         "Redux",
       ],
-      image: "https://i.ibb.co/39RLZhCz/Picture3.png",
+      image: "https://i.ibb.co/CpmyM9R9/pinkys1.png",
       // liveLink: "#",
       // githubLink: "#",
       duration: "5 months",
@@ -413,7 +455,7 @@ const Projects = () => {
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
               <Code size={20} className="text-green-400" />
-              Technologies Used
+              Tools and Technologies Used
             </h3>
             <div className="flex flex-wrap gap-3">
               {project.technologies.map((tech, index) => (
