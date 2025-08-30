@@ -11,7 +11,13 @@ const Projects = () => {
       category: "personal",
       description:
         "FinGuard is a personal finance tracking web application designed to help users manage income, expenses, and budgeting efficiently. It features intuitive dashboards, category-based transaction tracking, and visual insights to promote better financial decision-making.",
-      technologies: ["Next.js", "Node.js", "MongoDB", "Express.js", "Tailwind CSS"],
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "Tailwind CSS",
+      ],
       image: "https://i.ibb.co/4ZkDGQ3R/finguard.png",
       liveLink: "#",
       githubLink: "#",
@@ -26,8 +32,7 @@ const Projects = () => {
     },
 
     {
-      title:
-        "Todly - Mobile Application (Research Project)",
+      title: "Todly - Mobile Application (Research Project)",
       category: "university",
       description:
         "In my research project, I developed a smart toddler monitoring system aimed at enhancing child safety through real-time object detection and alert mechanisms. As the team leader, I applied both software engineering and machine learning techniques to create an innovative solution that detects potentially harmful objects or situations and notifies caregivers instantly. This work not only showcases my technical and leadership skills but also reflects my commitment to building impactful technology that prioritizes child safety and well-being.",
@@ -171,7 +176,7 @@ const Projects = () => {
         "User-friendly Travel Experience",
       ],
     },
-        {
+    {
       title: "NextPass - Digital Ticketing System for Public Transport",
       category: "university",
       description:
@@ -190,15 +195,25 @@ const Projects = () => {
         "User-friendly Interface",
       ],
     },
-            {
+
+    {
       title: "Café Green – Restaurant Management System",
       category: "university",
       description:
         "Café Green, a popular restaurant in Colombo, faced challenges with manual operations that caused inefficiency, higher costs, and risks of data loss. To overcome these issues, a web-based management system was introduced to automate daily processes such as order handling, employee tracking, supplier coordination, stock management, and financial accounts. The system also supports full CRUD operations for managing data efficiently, leading to improved productivity, reduced expenses, and an enhanced customer experience.",
-      technologies: ["Vue.js", "FastAPI", "SQL", "GitHub", "SwaggerUI", "Figma", "Trello"],
+      technologies: [
+        "Vue.js",
+        "FastAPI",
+        "SQL",
+        "GitHub",
+        "SwaggerUI",
+        "Figma",
+        "Trello",
+      ],
       image: "https://i.ibb.co/G4TNFNgN/cafe1.png",
       liveLink: "",
-      githubLink: "https://github.com/ashani-rasangika/CafeGreenRestuarentManagementSystem",
+      githubLink:
+        "https://github.com/ashani-rasangika/CafeGreenRestuarentManagementSystem",
       duration: "4 months",
       team: "Team of 8 (Academic)",
       features: [
@@ -210,7 +225,30 @@ const Projects = () => {
         "Customer Management",
         "Financial Accounts Management",
         "Reports & Analytics",
-        
+      ],
+    },
+    {
+      title: "Credit Card Fraud Detection – Machine Learning Project",
+      category: "university",
+      description:
+        "Machine learning-based system designed to detect fraudulent credit card transactions by applying supervised learning techniques such as Random Forest, SVM, Decision Tree, and Logistic Regression. The project involved extensive data preprocessing, including handling class imbalance with SMOTE, feature selection, and model evaluation to ensure accuracy and robustness in real-world financial fraud detection.",
+      technologies: [
+        "Python",
+        "Scikit-learn",
+        "Pandas & NumPy",
+        "Matplotlib & Seaborn",
+        "Jupyter Notebook",
+      ],
+      image: "https://i.ibb.co/fYJJ1ZCc/mlimg1.png",
+      liveLink: "",
+      githubLink: "https://github.com/ashani-rasangika/ML_assignment",
+      duration: "3 months",
+      team: "Team Project (Academic)",
+      features: [
+        "Fraud detection using supervised learning algorithms (Random Forest, SVM, Decision Tree, Logistic Regression)",
+        "Data preprocessing with SMOTE to balance imbalanced classes",
+        "Evaluation of model accuracy and performance on large-scale financial data",
+        "Feature engineering and noise handling for improved reliability",
       ],
     },
     {

@@ -35,7 +35,7 @@ const About = () => {
       description:
         "Comprehensive four-year degree program focused on core software engineering principles, including software development, system design, database management, and agile methodologies. Gained hands-on experience through academic projects and industry training.",
       achievements: ["Graduated with Second Class Honours (Lower Division)"],
-      logo: "https://i.ibb.co/k2NvThT4/SLIIT-Logo-Crest.png",
+      logo: "https://i.ibb.co/LqRhrLK/sliitlogo1.png",
     },
     {
       degree: "Secondary and Advanced Level Education",
